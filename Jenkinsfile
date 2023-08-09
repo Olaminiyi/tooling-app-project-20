@@ -56,7 +56,7 @@ pipeline {
   agent any
 
   environment {
-    REGISTRY_URL = "939895954199.dkr.ecr.us-east-1.amazonaws.com/tooling-ecr-repo-3d1d31e"
+    REGISTRY_URL = "939895954199.dkr.ecr.us-east-1.amazonaws.com/tooling-ecr-repo-3e584e8"
     AWS_REGION = "us-east-1"
     GIT_REPO_URL = "https://github.com/dybran/tooling-app-project-20.git"
     DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}" // Using Jenkins build number as the image tag
