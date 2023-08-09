@@ -54,7 +54,7 @@
 
 pipeline {
   agent any
-<<<<<<< HEAD
+
   environment {
     REGISTRY_URL = "939895954199.dkr.ecr.us-east-1.amazonaws.com/tooling-ecr-repo-3d1d31e"
     AWS_REGION = "us-east-1"
