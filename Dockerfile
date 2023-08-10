@@ -16,7 +16,7 @@ COPY html /var/www
 RUN chown -R www-data:www-data /var/www
 
 ENV MYSQL_IP=mysqlserverhost
-ENV MYSQL_USER=dybran
+ENV MYSQL_USER=admin
 ENV MYSQL_PASS=password
 ENV MYSQL_DBNAME=toolingdb
 
