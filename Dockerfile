@@ -1,6 +1,6 @@
 FROM php:7-apache
 LABEL "Project"="tooling"
-LABEL "Author"="Solomon Onwuasoanya"
+LABEL "Author"="Olaminiyi"
 LABEL "Description"="Building the tooling app"
 
 
@@ -16,7 +16,7 @@ COPY html /var/www
 RUN chown -R www-data:www-data /var/www
 
 ENV MYSQL_IP=mysqlserverhost
-ENV MYSQL_USER=admin
+ENV MYSQL_USER=ola
 ENV MYSQL_PASS=password
 ENV MYSQL_DBNAME=toolingdb
 
