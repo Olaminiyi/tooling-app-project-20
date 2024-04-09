@@ -1,6 +1,6 @@
 FROM mysql:latest
 LABEL "Project"="tooling"
-LABEL "Author"="Solomon Onwuasoanya"
+LABEL "Author"="Olaminiyi"
 LABEL "Description"="Building the tooling app"
 
 ENV MYSQL_ROOT_PASSWORD="password"
