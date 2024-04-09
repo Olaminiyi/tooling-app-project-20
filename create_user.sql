@@ -1,2 +1,2 @@
-CREATE USER 'dybran'@'%' IDENTIFIED BY 'sa4la2xa'; 
-GRANT ALL PRIVILEGES ON * . * TO 'dybran'@'%';
+CREATE USER 'ola'@'%' IDENTIFIED BY 'ola'; 
+GRANT ALL PRIVILEGES ON * . * TO 'ola'@'%';
