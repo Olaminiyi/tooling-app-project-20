@@ -7,7 +7,7 @@ pipeline {
     REGISTRY_URL = "992382761454.dkr.ecr.us-west-2.amazonaws.com/tooling-ecr"
     AWS_REGION = "us-west-2"
     GIT_REPO_URL = "https://github.com/Olaminiyi/tooling-app-project-20.git"
-    DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}" // Using Jenkins build number as the image tag
+    DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}" // Using Jenkins build number as the image tagg
   }
   
   stages {
